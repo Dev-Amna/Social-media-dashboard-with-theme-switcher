@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Social Media Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__top">
+      <h1 class="title">Social Media Dashboard</h1>
+      <p class="followers-total">Total Followers: 23,004</p>
+    </div>
+    <div class="theme-toggle">
+      <span class="theme-toggle__label">Dark Mode</span>
+      <div class="theme-toggle__switch"></div>
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <section class="stats-grid" id="statsGrid"></section>
+    <section class="overview">
+      <h2 class="subtitle">Overview - Today</h2>
+      <div class="overview-grid" id="overviewGrid"></div>
+    </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Dev-Amna">Dev-Amna</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
